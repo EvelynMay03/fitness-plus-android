@@ -26,6 +26,23 @@ Through this project, I gained practical experience in Android development using
 - PHP API integration
 - Database storage for user information and activities
 
+## Project Screenshots
+
+### Welcome Screen
+![Welcome Screen](screenshots/cover.png)
+
+### Main Screen
+![Main Screen](screenshots/main.png)
+
+### Activity Tracking
+![Activity Tracking](screenshots/activities.png)
+
+### Fitness Goals
+![Fitness Goals](screenshots/goal.png)
+
+### Fitness Videos
+![Fitness Videos](screenshots/youtube.png)
+
 ## Project Structure
 
 - `register/` – Android Studio application
