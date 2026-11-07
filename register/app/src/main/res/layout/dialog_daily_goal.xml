@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/home_goal_card"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/home_category_icon_mustard"
+        android:gravity="center"
+        android:text="🔥"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/home_goal_subtitle"
+        android:textColor="@color/home_text_secondary"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/home_goal_dialog_title"
+        android:textColor="@color/home_text_primary"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/home_goal_calories_label"
+        android:textColor="@color/home_text_secondary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etGoalCalories"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/home_search_bar"
+        android:hint="@string/home_goal_calories_hint"
+        android:inputType="number"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/home_text_primary"
+        android:textColorHint="@color/home_text_secondary"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/home_dialog_cancel_bg"
+            android:stateListAnimator="@null"
+            android:text="@string/home_cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/home_accent"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.widget.Button
+            android:id="@+id/btnDialogSave"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/profile_accent_button"
+            android:stateListAnimator="@null"
+            android:text="@string/home_save"
+            android:textAllCaps="false"
+            android:textColor="@color/home_on_accent"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Navy Blue, White & Yellow Pastel palette -->
+    <color name="palette_navy">#000080</color>
+    <color name="palette_white">#F5F5F4</color>
+    <color name="palette_mustard">#FFE676</color>
+    <color name="palette_creme">#FDFD95</color>
+
+    <color name="auth_bg">@color/palette_white</color>
+    <color name="auth_card">@color/palette_white</color>
+    <color name="auth_text_primary">@color/palette_navy</color>
+    <color name="auth_text_secondary">#5A5A72</color>
+    <color name="auth_text_hint">#8A8A9A</color>
+    <color name="auth_link">@color/palette_navy</color>
+    <color name="auth_logo">@color/palette_navy</color>
+    <color name="neu_shadow_dark">#D4D4D0</color>
+    <color name="neu_shadow_light">#FFFFFF</color>
+    <color name="neu_surface">@color/palette_white</color>
+
+    <color name="home_bg">@color/palette_white</color>
+    <color name="home_text_primary">@color/palette_navy</color>
+    <color name="home_text_secondary">#5A5A72</color>
+    <color name="home_search_bg">#FFFFFF</color>
+    <color name="home_category_bg">@color/palette_creme</color>
+    <color name="home_category_border">#E4E4EB</color>
+    <color name="home_category_icon_creme">#FFF9E6</color>
+    <color name="home_category_icon_mustard">#FFF4CC</color>
+    <color name="home_category_icon_navy_soft">#E8EBF8</color>
+    <color name="home_card_blue">@color/palette_creme</color>
+    <color name="home_card_purple">@color/palette_mustard</color>
+    <color name="home_card_coral">#FFF3B0</color>
+    <color name="home_accent">@color/palette_navy</color>
+    <color name="home_nav_inactive">#9A9AA8</color>
+    <color name="home_danger">#D64545</color>
+    <color name="home_on_accent">#FFFFFF</color>
+</resources>
