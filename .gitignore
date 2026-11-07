@@ -1,0 +1,24 @@
+# Android Studio and Gradle
+.gradle/
+.kotlin/
+.idea/
+**/build/
+*.iml
+local.properties
+**/local.properties
+
+# Generated files
+*.apk
+*.aab
+*.log
+
+# Local secrets
+.env
+.env.*
+*.keystore
+*.jks
+key.properties
+
+# macOS files
+.DS_Store
+__MACOSX/
